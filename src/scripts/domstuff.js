@@ -1,4 +1,4 @@
-console.log('this is domstuff')
+console.log("this is domstuff")
 
 
 //creates Menu Item Dom component
@@ -13,5 +13,6 @@ function listMenuItems(menuComponents) {
   menuComponents.forEach( component => {
     document.querySelector("#menu-list").innerHTML += component
   })
-
 }
+
+export {makeMenuItemComponent, listMenuItems}
