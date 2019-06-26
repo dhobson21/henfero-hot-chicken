@@ -2,19 +2,19 @@
   "menu_items": [
     {
       "id": 1,
-      "name": "Tenders Baskey",
+      "name": "Tenders Basket",
       "price": "$9.99"
     },
     {
       "id": 2,
       "name": "Half -Chicken",
       "price": "$11.50"
-    }, 
+    },
     {
       "id": 3,
       "name": "Thunder Thigh",
       "price": "$8.00"
-    }, 
+    },
     {
       "id": 4,
       "name": "Wings Basket",

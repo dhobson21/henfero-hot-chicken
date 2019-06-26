@@ -15,4 +15,18 @@ function listMenuItems(menuComponents) {
   })
 }
 
-export {makeMenuItemComponent, listMenuItems}
+
+//List heat levels in DOM section
+function makeHeatLevelComponent(heatObj) {
+  return `
+    <li><input type="radio" name="heat"><h3>${heatObj.name}</h3></li>
+  `
+}
+
+//lists heat levels in DOM section with "heat-list ID"
+function listHeatItems(heatComponents) {
+  heatComponents.forEach( component => {
+    document.querySelector("#heat-list").innerHTML += component
+  })
+}
+export {makeMenuItemComponent, listMenuItems, makeHeatLevelComponent, listHeatItems}
