@@ -1,6 +1,6 @@
 import { getMenuItems, getHeatLevels } from "./api.js"
 import { makeMenuItemComponent, listMenuItems, listHeatItems, makeHeatLevelComponent} from "./domstuff.js"
-
+import "./form.js"
 
 console.log("this is main")
 
